@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>Book4U</h1>
+        <p>A world of books</p>
+      </div>
+    </header>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./library.html">Library</a>
+      <a href="./add-book.html">Add</a>
+      <a href="./contact-us.html">Contact</a>
+    </nav>
+    <main>
+      <div class="card">
+        <h2>Contact Us</h2>
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              pattern="^[A-Za-z\s\-'.]+$"
+              title="Name should only contain letters, spaces, hyphens, apostrophes, and periods"
+              required
+            />
+            <span class="error-message" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <span class="error-message" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a subject</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Technical Support">Technical Support</option>
+              <option value="Book Request">Book Request</option>
+              <option value="Feedback">Feedback</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              minlength="10"
+              required
+            ></textarea>
+            <span class="error-message" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </div>
+    </main>
+    <div class="fab-container">
+      <button class="fab-button">+</button>
+      <div class="fab-dropdown hidden">
+        <a href="./index.html">Home</a>
+        <a href="./library.html">Library</a>
+        <a href="./add-book.html">Add</a>
+        <a href="./contact-us.html">Contact</a>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2025 Book4U.<br />All rights reserved. Policy</p>
+    </footer>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

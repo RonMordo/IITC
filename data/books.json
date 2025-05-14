@@ -1,0 +1,68 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Echo of Shadows",
+      "author": "Elena Martinez",
+      "genre": "Mystery",
+      "yearPublished": 2019,
+      "imageSrc": "https://picsum.photos/200/250?random=1"
+    },
+    {
+      "id": 2,
+      "title": "Beyond the Code",
+      "author": "James Chen",
+      "genre": "Science Fiction",
+      "yearPublished": 2021,
+      "imageSrc": "https://picsum.photos/200/250?random=2"
+    },
+    {
+      "id": 3,
+      "title": "The Art of Silence",
+      "author": "Sarah Williams",
+      "genre": "Literary Fiction",
+      "yearPublished": 2020,
+      "imageSrc": "https://picsum.photos/200/250?random=3"
+    },
+    {
+      "id": 4,
+      "title": "Digital Dreams",
+      "author": "Michael Zhang",
+      "genre": "Techno-thriller",
+      "yearPublished": 2022,
+      "imageSrc": "https://picsum.photos/200/250?random=4"
+    },
+    {
+      "id": 5,
+      "title": "The Last Garden",
+      "author": "Isabella Romano",
+      "genre": "Fantasy",
+      "yearPublished": 2018,
+      "imageSrc": "https://picsum.photos/200/250?random=5"
+    },
+    {
+      "id": 6,
+      "title": "Quantum Memories",
+      "author": "David Park",
+      "genre": "Science Fiction",
+      "yearPublished": 2023,
+      "imageSrc": "https://picsum.photos/200/250?random=6"
+    },
+    {
+      "id": 7,
+      "title": "The Hidden Pattern",
+      "author": "Maya Patel",
+      "genre": "Mystery",
+      "yearPublished": 2021,
+      "imageSrc": "https://picsum.photos/200/250?random=7"
+    },
+    {
+      "id": 8,
+      "title": "Waves of Time",
+      "author": "Thomas Anderson",
+      "genre": "Historical Fiction",
+      "yearPublished": 2020,
+      "imageSrc": "https://picsum.photos/200/250?random=8"
+    }
+  ]
+}

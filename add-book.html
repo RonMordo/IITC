@@ -21,11 +21,67 @@
     </nav>
     <main>
       <div class="card">
-        <form action=""></form>
+        <h2>Add a New Book</h2>
+        <form id="addBookForm" class="add-book-form">
+          <div class="form-group">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required />
+          </div>
+
+          <div class="form-group">
+            <label for="author">Author:</label>
+            <input
+              type="text"
+              id="author"
+              name="author"
+              pattern="^[A-Za-z\s\-'.]+$"
+              title="Author name should only contain letters, spaces, hyphens, apostrophes, and periods"
+              required
+            />
+            <span class="error-message" id="authorError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="genre">Genre:</label>
+            <select id="genre" name="genre" required>
+              <option value="">Select a genre</option>
+              <option value="Mystery">Mystery</option>
+              <option value="Science Fiction">Science Fiction</option>
+              <option value="Fantasy">Fantasy</option>
+              <option value="Literary Fiction">Literary Fiction</option>
+              <option value="Historical Fiction">Historical Fiction</option>
+              <option value="Techno-thriller">Techno-thriller</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="yearPublished">Year Published:</label>
+            <input
+              type="number"
+              id="yearPublished"
+              name="yearPublished"
+              min="1900"
+              max="2024"
+              required
+            />
+          </div>
+
+          <button type="submit" class="submit-button">Add Book</button>
+        </form>
       </div>
     </main>
+    <div class="fab-container">
+      <button class="fab-button">+</button>
+      <div class="fab-dropdown hidden">
+        <a href="./index.html">Home</a>
+        <a href="./library.html">Library</a>
+        <a href="./add-book.html">Add</a>
+        <a href="./contact-us.html">Contact</a>
+      </div>
+    </div>
     <footer>
       <p>&copy; 2025 Book4U.<br />All rights reserved. Policy</p>
     </footer>
+    <script type="module" src="./script.js"></script>
   </body>
 </html>
