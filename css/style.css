@@ -178,7 +178,8 @@ main {
 .fab-dropdown {
   position: absolute;
   bottom: 70px;
-  right: 0;
+  right: -10px;
+  padding: 0.5rem;
   background-color: rgba(77, 99, 115, 0.6);
   border-radius: 7px;
   display: flex;
