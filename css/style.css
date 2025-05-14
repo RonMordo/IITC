@@ -163,6 +163,9 @@ main {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(77, 99, 115, 0.6);
   font-size: 3rem;
   color: white;
@@ -173,6 +176,10 @@ main {
 
 .fab-button:hover {
   transform: scale(1.1);
+}
+
+.fab-button span {
+  text-align: center;
 }
 
 .fab-dropdown {
@@ -216,6 +223,7 @@ footer {
   align-items: center;
   margin-top: 1.5rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .add-book-form {
